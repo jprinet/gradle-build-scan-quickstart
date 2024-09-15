@@ -1,4 +1,4 @@
-# Build Scan® quickstart
+# Build Scan® quickstart - foo2
 
 This is an example project that you can use to experience the [Build Scan® service of Develocity][gradle.com].
 
