@@ -16,7 +16,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 
-    timeout = Duration.ofMillis(5000)
+    //timeout = Duration.ofMillis(5000)
 }
 
 java {

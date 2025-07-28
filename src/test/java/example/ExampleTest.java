@@ -13,7 +13,7 @@ class ExampleTest {
 
     @Test
     void testSleep() throws InterruptedException {
-        Thread.sleep(20000);
+        Thread.sleep(120000);
     }
 
 }
