@@ -1,3 +1,5 @@
+import java.time.Duration
+
 plugins {
     id("java")
 }
@@ -13,6 +15,8 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+
+    timeout = Duration.ofMillis(5000)
 }
 
 java {
