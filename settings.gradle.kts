@@ -7,4 +7,8 @@ rootProject.name = "gradle-build-scan-quickstart"
 
 develocity {
     server.set("https://ge.solutions-team.gradle.com")
+
+    buildScan {
+        uploadInBackground.set(false)
+    }
 }
